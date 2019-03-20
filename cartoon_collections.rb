@@ -6,9 +6,8 @@ end
 
 def summon_captain_planet(list)
   list.collect do |x|
-    list(x.upcase << '!')
+    x + '!'
   end
-  list
 end
 
 def long_planeteer_calls# code an argument here
