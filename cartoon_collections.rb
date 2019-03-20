@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(list)
   list.collect do |x|
-    x + '!'
+    x.upcase + '!'
   end
 end
 
