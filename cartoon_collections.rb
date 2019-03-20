@@ -5,7 +5,10 @@ def roll_call_dwarves(list)
 end
 
 def summon_captain_planet(list)
-  
+  list.collect do |x|
+    list(x << !)
+  end
+  list
 end
 
 def long_planeteer_calls# code an argument here
